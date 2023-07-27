@@ -11,14 +11,20 @@ import ClassClickl from './components/ClassClickl';
 import EventBind from './components/EventBind';
 import ChildComponent from './components/ChildComponent';
 import ParentComponent from './components/ParentComponent';
-
-
+import UserGreeting from './components/UserGreeting';
+import PersonList from './components/List/PersonList';
+import StyleSheets from './components/StyleSheets';
+import Styles from './components/Css/myStyle.module.css'
 
 class App extends Component {
   render(){
   return (
     <div className="App">
-      <ParentComponent />
+      <h1 className={Styles.failure}>Success</h1>
+      {/* <StyleSheets primary = {false} /> */}
+      {/* <PersonList /> */}
+      {/* <UserGreeting /> */}
+      {/* <ParentComponent /> */}
       {/* <ChildComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClickl /> */}
